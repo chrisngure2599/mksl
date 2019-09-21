@@ -2,6 +2,7 @@
 <script type="text/javascript" src="jquery.js" ></script>
 <!--Putting Javascript script-->
 <script type="text/javascript" src="script.js" ></script>
+
 <?php
 $db = mysqli_connect('localhost', 'root', 'sziff124', 'mksl');
 // Check connection
@@ -34,6 +35,5 @@ mysqli_close($db);
 </select>
 <br>
 <br>
-<select name="city" id="city" >
-     <option value disabled selected>Select Wilaya</option>
-</select>
+<select name="wilaya" id="wilaya" >
+     <option value disabled selected id="" >Select Wilaya</option>
